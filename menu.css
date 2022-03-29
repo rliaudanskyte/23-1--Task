@@ -34,7 +34,7 @@ a {
     color: #151515;
     text-transform: uppercase;
     letter-spacing: .1em;
-    padding-right: .5em;
+    padding-right: .2em;
 }
 
 a svg {
@@ -153,6 +153,12 @@ header nav.hamburgerWrap input {
 }
 
 @media screen and (min-width: 765px) {
+    a {
+        padding-right: 0.5em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     a {
         padding-right: 1em;
     }
